@@ -1,16 +1,18 @@
 @import "tailwindcss";
 
+html {
+  background-color: #111827;
+}
+
 html,
 body {
   font-family: 'Space Grotesk', sans-serif;
-  height: 100%; 
-  /* background-color: #0f172a; */
+  min-height: 100vh;
   color: white;
   cursor: url('./assets/hollow-cursor-white-border.svg') 0 0, auto;
 }
 
 html.dark {
-  /* background-color: #0f172a;  */
   color: white;
   cursor: url('./assets/hollow-cursor-white-border.svg') 0 0, auto !important;
 }

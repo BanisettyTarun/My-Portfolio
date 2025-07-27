@@ -1,19 +1,30 @@
 @import "tailwindcss";
 
-html, body {
-    font-family: 'Space Grotesk', sans-serif;
-    cursor: url('./assets/hollow-cursor-white-border.svg') 0 0, auto;
+html,
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  height: 100%; 
+  /* background-color: #0f172a; */
+  color: white;
+  cursor: url('./assets/hollow-cursor-white-border.svg') 0 0, auto;
 }
 
-button, a, .group:hover, .group-hover\:cursor-pointer:hover {
-  cursor: url('./assets/hollow-cursor-white-border-large.svg') 0 0, pointer;
-}
-
-/* Custom cursor styles for dark theme */
 html.dark {
+  /* background-color: #0f172a;  */
+  color: white;
   cursor: url('./assets/hollow-cursor-white-border.svg') 0 0, auto !important;
 }
 
-html.dark button, html.dark a, html.dark .group:hover, html.dark .group-hover\:cursor-pointer:hover {
+button,
+a,
+.group:hover,
+.group-hover\:cursor-pointer:hover {
+  cursor: url('./assets/hollow-cursor-white-border-large.svg') 0 0, pointer;
+}
+
+html.dark button,
+html.dark a,
+html.dark .group:hover,
+html.dark .group-hover\:cursor-pointer:hover {
   cursor: url('./assets/hollow-cursor-white-border-large.svg') 0 0, pointer !important;
 }

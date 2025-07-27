@@ -79,7 +79,7 @@ export default function Hero() {
         <img
           src={profilePic}
           alt="Banisetty Tarun profile"
-          className="w-48 h-48 md:w-64 md:h-64 lg:w-96 lg:h-96 rounded-full object-cover border-4 border-blue-200 shadow-lg"
+          className="w-52 h-52 md:w-64 md:h-64 lg:w-96 lg:h-96 rounded-full object-cover border-4 border-blue-200 shadow-lg"
         />
       </motion.div>
 

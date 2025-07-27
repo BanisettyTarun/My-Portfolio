@@ -10,6 +10,7 @@ import Hobbies from './components/Hobbies';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Certificates from './components/Certificates';
+import Education from './components/Education';
 
 function App() {
   useEffect(() => {
@@ -37,6 +38,7 @@ function App() {
       <main className="relative pt-20 min-h-screen transition-colors duration-300">
         <Hero />
         <About />
+        <Education />
         <Skills />
         <Projects />
         <Experience />

@@ -52,9 +52,9 @@ export default function Education() {
         <h2 className="text-3xl md:text-4xl font-bold mb-16 text-blue-400 text-center">Education</h2>
 
         <div className="relative">
-          {/* Responsive vertical line */}
-          <div className="absolute top-5 h-[96%] z-0 w-1 bg-gradient-to-b from-blue-400 to-gray-600 
-                          left-5 md:left-1/2 md:transform md:-translate-x-1/2"></div>
+          {/* Vertical line */}
+          <div className="absolute top-5 h-[96%] z-0 w-0.5 bg-gradient-to-b from-blue-400 to-gray-600 
+                          left-3.5 md:left-1/2 md:transform md:-translate-x-1/2"></div>
 
           <div className="flex flex-col gap-14 sm:gap-20">
             {educationData.map((edu, idx) => {
@@ -67,10 +67,10 @@ export default function Education() {
                     isLeft ? 'md:justify-start' : 'md:justify-end'
                   }`}
                 >
-                  {/* Responsive timeline dot */}
+                  {/* Timeline dot */}
                   <div
                     className="absolute z-10 top-3 
-                               left-5 md:left-1/2 md:transform md:-translate-x-1/2"
+                               left-3.5 md:left-1/2 md:transform md:-translate-x-1/2"
                   >
                     <div className="w-3.5 h-3.5 bg-blue-400 rounded-full border-4 border-gray-800"></div>
                   </div>
@@ -79,7 +79,7 @@ export default function Education() {
                   <div
                     className={`w-full md:w-1/2 ${
                       isLeft ? 'md:pr-6' : 'md:pl-6'
-                    }`}
+                    } pl-8`} // mobile padding for left dot
                   >
                     <div
                       className={`flex items-start gap-4 max-w-sm sm:max-w-md w-full p-4 rounded-xl border border-gray-700 bg-gray-800/60 hover:border-blue-400 hover:shadow-xl transition-all duration-300 hover:scale-[1.03] 

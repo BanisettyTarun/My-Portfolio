@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
 import { DownloadCloud } from 'lucide-react';
 import profilePic from '../assets/Original.JPG';
-import resumePDF from '../assets/22211A0539_Tarun.pdf';
+import resumePDF from '../assets/Banisetty_Tarun_Resume.pdf';
 
 export default function Hero() {
   return (

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import resumePDF from '../assets/22211A0539_Tarun.pdf';
+import resumePDF from '../assets/Banisetty_Tarun_Resume.pdf';
 import { motion } from 'framer-motion';
 
 const NAV_ITEMS = [
